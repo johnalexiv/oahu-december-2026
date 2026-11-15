@@ -20,7 +20,7 @@ export const research = [
           'Hanauma Bay: admission opens 2 days ahead at 7:00a HST and sells out in minutes. For Thu Dec 10, book Tue Dec 8 at 9:00a Las Vegas time',
           'Hanauma is closed every Monday and Tuesday. The bay\'s last entry is 1:30p',
           'Kualoa UTV Raptor: check in 45 min before the tour or lose the booking',
-          'Mānoa Chocolate factory tour: book online, and the tour leaves from a shuttle pickup point, not the shop',
+          'Mānoa Chocolate cacao farm tour: book on FareHarbor. It runs at 10a and 1p at Kamananui Cacao Orchards on the North Shore, not at the Kailua shop. Ages 5+, closed-toe shoes',
           'Kahuku Farms café is closed Tuesdays and Wednesdays. Its wagon tours run Fri–Sun'
         ]
       },
@@ -92,7 +92,8 @@ export const research = [
         items: [
           'Hanauma Bay: ~15 min east',
           'HNL / Enterprise at 300 Rodgers Blvd: ~25 min',
-          'Kailua / Mānoa Chocolate: ~25 min over the Pali Hwy',
+          'Kailua / Mānoa Chocolate tasting room: ~25 min over the Pali Hwy',
+          'Kamananui Cacao Orchards (farm tour): North Shore, ~45–50 min from Kailua via H-3 / H-2',
           'Kakaʻako / Don Quijote: ~15 min',
           'Kualoa Ranch: ~45 min via H-3',
           'North Shore (Kahuku → Pipeline → Haleʻiwa): ~1 hr+, longer on contest days'

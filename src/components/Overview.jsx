@@ -17,7 +17,7 @@ export function Overview() {
 
   const routeRows = [
     ['Wed Dec 9',  'Arrive', 'Land 2:04p · SUV · Kahala sunset'],
-    ['Thu Dec 10', 'East side', 'Hanauma Bay · coast drive · Mānoa Chocolate · Kailua'],
+    ['Thu Dec 10', 'East side + cacao farm', 'Hanauma Bay · coast drive · cacao farm tour · Kailua'],
     ['Fri Dec 11', 'Windward + North Shore', 'Kualoa UTV · Kahuku Farms · Giovanni\'s · Kula · Pipeline'],
     ['Sat Dec 12', 'Town', 'Kakaʻako market · Goofy\'s brunch · Don Quijote · cabana'],
     ['Sun Dec 13', 'Home', 'Return car 11:10a · AS 876 at 1:10p']

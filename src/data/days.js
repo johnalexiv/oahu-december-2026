@@ -33,18 +33,20 @@ export const days = [
     flag: { tone: 'indigo', label: 'Book Hanauma Tue Dec 8 · 7a HST' }
   },
   {
-    n: 2, date: 'Thu · Dec 10', dow: 'Thursday', region: 'Hanauma Bay → Kailua',
-    title: 'Hanauma Bay + Mānoa Chocolate',
-    tagline: 'Snorkel the reef at opening, drive the east-side coast road, chocolate and beach time in Kailua.',
+    n: 2, date: 'Thu · Dec 10', dow: 'Thursday', region: 'Hanauma Bay → North Shore → Kailua',
+    title: 'Hanauma Bay + cacao farm tour',
+    tagline: 'Snorkel the reef at opening, drive the east-side coast road, a 1:00p cacao farm tour on the North Shore, then beach time in Kailua.',
     hotel: 'The Kahala Hotel & Resort',
     activities: [
       { time: '6:25a',  title: 'Leave for Hanauma Bay', icon: 'car', note: '~15 min east from the Kahala. Bring cash for the small parking fee and reef-safe sunscreen.' },
       { time: '6:45a',  title: 'Hanauma Bay Nature Preserve', icon: 'waves', note: '★★ Opens 6:45a · Wed–Sun only (closed Mon/Tue) · last entry 1:30p. Short mandatory reef video before you walk down. $25 pp nonresident. Mornings are calmest and clearest.' },
-      { time: '10:30a', title: 'Coast drive: Hālona Blowhole + Makapuʻu lookout', icon: 'camera', note: 'Pull-offs along Kalanianaʻole Hwy on the way to Kailua. December is the start of humpback season — scan the horizon from Makapuʻu.' },
-      { time: '12:00p', title: 'Lunch in Kailua town', icon: 'utensils', note: 'Walkable strip around Kailua Rd and Uluniu St.' },
-      { time: '1:30p',  title: 'Mānoa Chocolate factory tour', icon: 'gift', note: '★ 45-min self-guided tour of the tree-to-bar factory · ~$35 pp · book on manoachocolate.com. The tour starts from a shuttle pickup point, NOT the Kailua shop — directions come in the confirmation email. 56 stairs up and down.' },
-      { time: '2:30p',  title: 'Mānoa Chocolate tasting room', icon: 'sparkles', note: '333 Uluniu St, Kailua. Free 10–15 min guided tastings, no reservation needed. Good place to buy bars to bring home.' },
-      { time: '3:30p',  title: 'Kailua Beach / Lanikai', icon: 'sun', note: 'Soft sand and the two Mokulua islets offshore. Lanikai has no public lot — park in Kailua Beach Park and walk.' },
+      { time: '10:00a', title: 'Coast drive: Hālona Blowhole + Makapuʻu lookout', icon: 'camera', note: 'Pull-offs along Kalanianaʻole Hwy on the way to Kailua. December is the start of humpback season — scan the horizon from Makapuʻu.' },
+      { time: '11:00a', title: 'Early lunch in Kailua town', icon: 'utensils', note: 'Walkable strip around Kailua Rd and Uluniu St. Keep it quick — leave by ~11:50a.' },
+      { time: '11:50a', title: 'Drive to Kamananui Cacao Orchards', icon: 'car', note: '~45–50 min from Kailua via H-3 and H-2 to the North Shore, at the base of Mount Kaʻala. Free on-site parking.' },
+      { time: '1:00p',  title: 'Cacao farm tour & chocolate tasting', icon: 'gift', note: '★ Mānoa Chocolate\'s own farm · 1.5 hrs · $94 per adult · booked through FareHarbor. A slow 30+ min walk through the orchard on uneven ground, a fresh cacao fruit tasting, then a long tasting of bars and treats in the Orchard Pavilion. Wear closed-toe shoes and sunscreen; water, bug spray and umbrellas are on hand. Bars and gifts for sale after.' },
+      { time: '2:30p',  title: 'Drive back to the windward side', icon: 'car', note: '~50 min back to Kailua via H-2 and H-3.' },
+      { time: '3:30p',  title: 'Mānoa Chocolate tasting room', icon: 'sparkles', note: 'Optional: 333 Uluniu St, Kailua. Free short guided tastings, no reservation needed. Skip it if the farm tasting was plenty.' },
+      { time: '4:00p',  title: 'Kailua Beach / Lanikai', icon: 'sun', note: 'Soft sand and the two Mokulua islets offshore. Lanikai has no public lot — park in Kailua Beach Park and walk.' },
       { time: '6:30p',  title: 'Dinner', icon: 'utensils', note: 'Kailua → Kahala is ~25 min over the Pali Hwy and H-1.' }
     ],
     flag: { tone: 'ember', label: '★★ Hanauma 6:45a open' }
