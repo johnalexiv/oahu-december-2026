@@ -7,9 +7,9 @@ import { trip } from '../data/trip.js'
 describe('data integrity', () => {
   const imageValues = new Set([...Object.values(images), ...Object.values(photos)])
 
-  it('every photo has a credit and the file exists', () => {
+  it('every photo file exists and credits link to Commons', () => {
     const fs = require('node:fs')
-    expect(photoCredits.length).toBe(Object.keys(photos).length)
+    for (const c of photoCredits) expect(c.url).toMatch(/^https:\/\/commons\.wikimedia\.org\//)
     for (const src of Object.values(photos)) {
       expect(fs.existsSync('public' + src.replace(/^\/oahu-december-2026/, ''))).toBe(true)
     }

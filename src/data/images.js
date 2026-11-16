@@ -20,29 +20,26 @@ export const heroPhoto = {
   fallback: images.waikiki
 }
 
-// Real photos from Wikimedia Commons (credited in the footer via photoCredits).
+// Photos for the stay card and each day. The Commons ones are credited in the
+// footer via photoCredits; the rest were supplied for this site.
 export const photos = {
-  kahalaHotel:  `${base}images/photos/kahala-hotel.jpg`,
-  kahalaBeach:  `${base}images/photos/kahala-beach-sunset.jpg`,
-  hanauma:      `${base}images/photos/hanauma-bay.jpg`,
-  kualoa:       `${base}images/photos/kualoa-ranch.jpg`,
-  kakaako:      `${base}images/photos/kakaako.jpg`,
-  hnlDeparture: `${base}images/photos/hnl-departure.jpg`
+  kahalaHotel: `${base}images/photos/kahala-hotel.jpg`,
+  kahalaBeach: `${base}images/photos/kahala-beach-sunset.jpg`,
+  hanauma:     `${base}images/photos/hanauma-reef.jpg`,
+  kualoaUtv:   `${base}images/photos/kualoa-utv.jpg`,
+  waikiki:     `${base}images/photos/waikiki.jpg`,
+  lasVegas:    `${base}images/photos/las-vegas.jpg`
 }
 
 export const dayImages = {
   1: photos.kahalaBeach,
   2: photos.hanauma,
-  3: photos.kualoa,
-  4: photos.kakaako,
-  5: photos.hnlDeparture
+  3: photos.kualoaUtv,
+  4: photos.waikiki,
+  5: photos.lasVegas
 }
 
 export const photoCredits = [
   { subject: 'The Kahala Hotel & Resort', author: 'Studio Sarah Lou', license: 'CC BY 2.0', url: 'https://commons.wikimedia.org/wiki/File:Kahala_Hotel_%26_Resort.jpg' },
-  { subject: 'Kahala beach at sunset', author: 'Lahaina', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:The_Kahala_Hotel_%26_Resort_Oahu_Privete_Beach.JPG' },
-  { subject: 'Hanauma Bay', author: 'Diego Delso', license: 'CC BY-SA 3.0', url: 'https://commons.wikimedia.org/wiki/File:Hanauma_Bay,_Oahu,_Hawaii,_USA2.jpg' },
-  { subject: 'Kualoa Ranch', author: 'Schm6041', license: 'CC BY 4.0', url: 'https://commons.wikimedia.org/wiki/File:Jurassic_Valley.jpg' },
-  { subject: 'Kakaʻako', author: 'Daniel Ramirez', license: 'CC BY 2.0', url: 'https://commons.wikimedia.org/wiki/File:Rainbow_in_Kakaako_(18761269126).jpg' },
-  { subject: 'HNL departure', author: 'Robert Linsdell', license: 'CC BY 2.0', url: 'https://commons.wikimedia.org/wiki/File:Honolulu_International_Airport,_Honolulu_(503727)_(20697795108).jpg' }
+  { subject: 'Kahala beach at sunset', author: 'Lahaina', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:The_Kahala_Hotel_%26_Resort_Oahu_Privete_Beach.JPG' }
 ]
