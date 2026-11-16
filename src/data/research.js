@@ -93,7 +93,7 @@ export const research = [
           'HNL / Enterprise at 300 Rodgers Blvd: ~25 min',
           'Kakaʻako / Don Quijote: ~15 min',
           'Kualoa Ranch: ~45 min via H-3',
-          'Kualoa → Kamananui Cacao Orchards (North Shore): ~1 hr',
+          'Kualoa → Kamananui Cacao Orchards (67-172 Farrington Hwy, Waialua): ~1 hr',
           'North Shore (Kahuku → Pipeline → Haleʻiwa): ~1 hr+, longer on contest days'
         ]
       }
