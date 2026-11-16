@@ -1,11 +1,19 @@
 import { describe, it, expect } from 'vitest'
-import { images, dayImages } from '../data/images.js'
+import { images, photos, dayImages, photoCredits } from '../data/images.js'
 import { days, getTodayDayNumber } from '../data/days.js'
 import { accommodations } from '../data/accommodations.js'
 import { trip } from '../data/trip.js'
 
 describe('data integrity', () => {
-  const imageValues = new Set(Object.values(images))
+  const imageValues = new Set([...Object.values(images), ...Object.values(photos)])
+
+  it('every photo has a credit and the file exists', () => {
+    const fs = require('node:fs')
+    expect(photoCredits.length).toBe(Object.keys(photos).length)
+    for (const src of Object.values(photos)) {
+      expect(fs.existsSync('public' + src.replace(/^\/oahu-december-2026/, ''))).toBe(true)
+    }
+  })
 
   it('every dayImages value maps to a defined images entry', () => {
     for (const [day, url] of Object.entries(dayImages)) {

@@ -1,4 +1,4 @@
-import { images } from './images.js'
+import { photos } from './images.js'
 
 export const accommodations = [
   {
@@ -11,7 +11,7 @@ export const accommodations = [
     costNote: 'Romance Awaits promotion · no resort fee',
     status: 'booked',
     platform: 'Costco Travel',
-    image: images.waikiki,
+    image: photos.kahalaHotel,
     roomType: 'Golf/Mountain-View Room · 2 adults',
     checkIn: 'Dec 9 · 3:00p',
     checkOut: 'Dec 13 · 12:00p',
