@@ -12,7 +12,7 @@ export function Overview() {
     { label: 'Stay',     value: '4',  sub: 'Nights at The Kahala · booked' },
     { label: 'Flights',  value: '2',  sub: 'Nonstop LAS ⇄ HNL · Alaska' },
     { label: 'Car',      value: 'SUV', sub: 'Enterprise · booked' },
-    { label: 'To book',  value: String(pending), sub: 'Hanauma · Kualoa · cacao · Goofy\'s · dinner' }
+    { label: 'To book',  value: String(pending), sub: 'Hanauma · Goofy\'s · cabana · dinner' }
   ]
 
   const routeRows = [
