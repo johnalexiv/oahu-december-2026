@@ -20,7 +20,8 @@ export const research = [
           'Hanauma Bay: admission opens 2 days ahead at 7:00a HST and sells out in minutes. For Thu Dec 10, book Tue Dec 8 at 9:00a Las Vegas time',
           'Hanauma is closed every Monday and Tuesday. The bay\'s last entry is 1:30p',
           'Kualoa UTV Raptor: check in 45 min before the tour or lose the booking',
-          'Kahuku Farms café is closed Tuesdays and Wednesdays. Its wagon tours run Fri–Sun'
+          'Mānoa Chocolate cacao farm tour: book on FareHarbor. Tours at 10a and 1p at Kamananui Cacao Orchards on the North Shore, not at the Kailua shop. Ages 5+, closed-toe shoes',
+          'Kahuku Farms café is closed Tuesdays and Wednesdays'
         ]
       },
       {
@@ -61,22 +62,21 @@ export const research = [
   {
     id: 'food',
     title: 'Food on the list',
-    lede: 'Shrimp, shave ice, farm café, market breakfast, and a 24-hour Donki.',
+    lede: 'Shrimp, shave ice, cacao, market breakfast, and a 24-hour Donki.',
     blocks: [
       {
         h: 'North Shore',
         items: [
-          'Giovanni\'s Shrimp Truck: the original graffiti truck at 56-505 Kam Hwy, Kahuku. Get the scampi; it\'s heavy on garlic',
+          'Giovanni\'s Shrimp Truck: the original is in Kahuku, with another truck in Haleʻiwa near the cacao farm. Get the scampi; it\'s heavy on garlic',
           'Kahuku Farms: 56-800 Kam Hwy. Açaí bowls, grilled banana bread, and farm-made jams/lilikoʻi butter to bring home',
-          'Kula Shave Ice: organic fresh-fruit syrups, now at The Farmstand at Kuilima near Turtle Bay (not Haleʻiwa). Open Fri–Sun'
+          'Matsumoto Shave Ice: the classic Haleʻiwa stop. Expect a line, and wander the town after'
         ]
       },
       {
         h: 'Town',
         items: [
           'Kakaʻako Farmers Market: Saturdays 8a–12p at 919 Ala Moana Blvd. Breakfast here',
-          'Don Quijote: 801 Kaheka St, open 24 hrs. Omiyage, snacks, macadamia nuts, and food stalls at the front',
-          'Mānoa Chocolate tasting room: 333 Uluniu St, Kailua. Free short guided tastings'
+          'Don Quijote: 801 Kaheka St, open 24 hrs. Omiyage, snacks, macadamia nuts, and food stalls at the front'
         ]
       }
     ]
@@ -91,9 +91,9 @@ export const research = [
         items: [
           'Hanauma Bay: ~15 min east',
           'HNL / Enterprise at 300 Rodgers Blvd: ~25 min',
-          'Kailua / Mānoa Chocolate tasting room: ~25 min over the Pali Hwy',
           'Kakaʻako / Don Quijote: ~15 min',
           'Kualoa Ranch: ~45 min via H-3',
+          'Kualoa → Kamananui Cacao Orchards (North Shore): ~1 hr',
           'North Shore (Kahuku → Pipeline → Haleʻiwa): ~1 hr+, longer on contest days'
         ]
       }

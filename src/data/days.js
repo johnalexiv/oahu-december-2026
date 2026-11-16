@@ -33,40 +33,39 @@ export const days = [
     flag: { tone: 'indigo', label: 'Book Hanauma Tue Dec 8 · 7a HST' }
   },
   {
-    n: 2, date: 'Thu · Dec 10', dow: 'Thursday', region: 'Hanauma Bay → Kailua',
+    n: 2, date: 'Thu · Dec 10', dow: 'Thursday', region: 'Hanauma Bay → Kahala',
     title: 'Hanauma Bay + Koko Crater Arch',
-    tagline: 'Snorkel the reef at opening, the Hālona Blowhole and an optional short hike to Koko Crater Arch, then the coast road to Kailua for the beach.',
+    tagline: 'Snorkel the reef at opening, the Hālona Blowhole and an optional short hike to Koko Crater Arch, then a slow afternoon back at the Kahala.',
     hotel: 'The Kahala Hotel & Resort',
     activities: [
       { time: '6:25a',  title: 'Leave for Hanauma Bay', icon: 'car', note: '~15 min east from the Kahala. Bring cash for the small parking fee and reef-safe sunscreen.' },
       { time: '6:45a',  title: 'Hanauma Bay Nature Preserve', icon: 'waves', note: '★★ Opens 6:45a · Wed–Sun only (closed Mon/Tue) · last entry 1:30p. Short mandatory reef video before you walk down. $25 pp nonresident. Mornings are calmest and clearest.' },
-      { time: '10:00a', title: 'Hālona Blowhole lookout', icon: 'camera', note: 'A few minutes past Hanauma on Kalanianaʻole Hwy. Park here; the arch trailhead is about ½ mile up the road.' },
+      { time: '10:00a', title: 'Hālona Blowhole lookout', icon: 'camera', note: 'A few minutes past Hanauma on Kalanianaʻole Hwy. Park here; the arch trailhead is about ½ mile up the road. December is the start of humpback season — scan the horizon.' },
       { time: '10:20a', title: 'Koko Crater Arch hike (optional)', icon: 'mountain', note: '★ ~1 mi round trip up the side of Koko Crater to a natural rock arch with views down the coast. Steep and loose in places, no shade, no signs: an informal trail from small roadside turnouts. Swap into closed-toe shoes and bring water. Allow 1–1.5 hrs.' },
-      { time: '11:45a', title: 'Makapuʻu lookout', icon: 'camera', note: 'Pull-off on the way to Kailua. December is the start of humpback season — scan the horizon.' },
-      { time: '12:30p', title: 'Lunch in Kailua town', icon: 'utensils', note: 'Walkable strip around Kailua Rd and Uluniu St.' },
-      { time: '1:45p',  title: 'Mānoa Chocolate tasting room', icon: 'sparkles', note: 'Optional: 333 Uluniu St, Kailua. Free short guided tastings, no reservation needed. Good place to buy bars to bring home.' },
-      { time: '2:30p',  title: 'Kailua Beach / Lanikai', icon: 'sun', note: 'Soft sand and the two Mokulua islets offshore. Lanikai has no public lot — park in Kailua Beach Park and walk.' },
-      { time: '6:30p',  title: 'Dinner', icon: 'utensils', note: 'Kailua → Kahala is ~25 min over the Pali Hwy and H-1.' }
+      { time: '12:00p', title: 'Back to the Kahala + lunch', icon: 'utensils', note: '~15 min back to the hotel. Shower, then an easy lunch on property or nearby.' },
+      { time: '1:30p',  title: 'Pool + beach afternoon', icon: 'sun', note: 'Nothing scheduled. Nap, swim, read — tomorrow is the early UTV start.' },
+      { time: '5:30p',  title: 'Sunset on the Kahala beach', icon: 'sun', note: 'Sunset is around 5:50p.' },
+      { time: '6:30p',  title: 'Easy dinner', icon: 'utensils', note: 'Keep it close — leave for Kualoa at 6:20a tomorrow.' }
     ],
     flag: { tone: 'ember', label: '★★ Hanauma 6:45a open' }
   },
   {
     n: 3, date: 'Fri · Dec 11', dow: 'Friday', region: 'Kualoa → North Shore',
-    title: 'UTV Raptor + North Shore day',
-    tagline: 'Off-road through Kualoa\'s valleys, then farm café, shrimp, shave ice and Pipeline in contest season.',
+    title: 'UTV Raptor + cacao farm + Haleʻiwa',
+    tagline: 'Off-road through Kualoa\'s valleys at 8, a slow drive up the coast, Mānoa Chocolate\'s cacao farm at 1, then shrimp and shave ice in Haleʻiwa.',
     hotel: 'The Kahala Hotel & Resort',
     activities: [
-      { time: '7:15a',  title: 'Drive to Kualoa Ranch', icon: 'car', note: '~45 min from the Kahala via H-3. Check the WSL app for the Pipe Masters call (made early each morning) on the way.' },
-      { time: '8:15a',  title: 'Check in at Kualoa ticket office', icon: 'ticket', note: 'Check-in closes 45 min before tour time — miss it and there\'s no refund. Driver needs to be 21+ with photo ID matching the booking.' },
-      { time: '9:00a',  title: 'Kualoa UTV Raptor Tour', icon: 'mountain', note: '★★ 2 hrs · you drive, a guide leads · ~$195 pp · movie sites in Kaʻaʻawa Valley. Wear clothes you don\'t mind getting dusty; a buff/bandana helps.' },
-      { time: '11:45a', title: 'Kahuku Farms café', icon: 'flower', note: '★ Farm-to-table café + farm-made jams, lilikoʻi butter and body care to take home · 11a–4p, closed Tue/Wed. Açaí bowl and grilled banana bread are the classics. Optional wagon tour (Fri–Sun) — book ahead.' },
-      { time: '1:00p',  title: 'Giovanni\'s Shrimp Truck (Kahuku)', icon: 'utensils', note: 'The original graffiti truck, a few minutes from Kahuku Farms. Split a scampi plate — there\'s more eating ahead.' },
-      { time: '1:45p',  title: 'Kula Shave Ice North Shore', icon: 'iceCream', note: 'Now at The Farmstand at Kuilima near Turtle Bay (57-146 Kam Hwy, Kahuku), not Haleʻiwa. Organic fresh-fruit syrups · open Fri–Sun midday to ~5p — check @kulashaveicens before going.' },
-      { time: '2:30p',  title: 'Pipe Masters at Banzai Pipeline', icon: 'surf', note: '★★ WSL Championship Tour finale · holding period Dec 8–20 · runs only on days with good surf. Watch from the sand at ʻEhukai Beach Park. Parking along Kam Hwy fills fast on contest days. If it\'s off today, the waves still pull big crowds — Waimea Bay and Sunset Beach are minutes away.' },
-      { time: '5:30p',  title: 'Sunset at Sunset Beach', icon: 'sun', note: 'Exactly what it says.' },
-      { time: '6:30p',  title: 'Dinner in Haleʻiwa, then drive back', icon: 'utensils', note: '~1 hr+ back to the Kahala via H-2 / H-1.' }
+      { time: '6:20a',  title: 'Drive to Kualoa Ranch', icon: 'car', note: '~45 min from the Kahala via H-3, with a little buffer for traffic. Grab coffee and something to eat on the way.' },
+      { time: '7:15a',  title: 'Check in at Kualoa ticket office', icon: 'ticket', note: 'Check-in closes 45 min before tour time — miss it and there\'s no refund. Driver needs to be 21+ with photo ID matching the booking.' },
+      { time: '8:00a',  title: 'Kualoa UTV Raptor Tour', icon: 'mountain', note: '★★ 2 hrs · you drive, a guide leads · ~$195 pp · movie sites in Kaʻaʻawa Valley. Wear clothes you don\'t mind getting dusty; a buff/bandana helps.' },
+      { time: '10:15a', title: 'Slow drive to the cacao farm', icon: 'car', note: '~1 hr, leaving about 2 hrs of slack before the tour. Take Kam Hwy up the coast past Kahuku and Sunset Beach. Optional stops: Kahuku Farms café (opens 11a) or Laniakea for sea turtles.' },
+      { time: '1:00p',  title: 'Cacao farm tour & chocolate tasting', icon: 'gift', note: '★★ Mānoa Chocolate\'s Kamananui Cacao Orchards, at the base of Mount Kaʻala · 1.5 hrs · $94 per adult. A slow 30+ min walk through the orchard on uneven ground, a fresh cacao fruit tasting, then a long tasting of bars and treats in the Orchard Pavilion. Closed-toe shoes and sunscreen; water, bug spray and umbrellas are on hand. Free parking.' },
+      { time: '2:45p',  title: 'Giovanni\'s Shrimp Truck', icon: 'utensils', note: 'Haleʻiwa is a few minutes from the farm. Split a scampi plate — heavy on garlic.' },
+      { time: '3:30p',  title: 'Matsumoto Shave Ice', icon: 'iceCream', note: 'The classic Haleʻiwa shave ice stop. Expect a line. Wander the town\'s shops after.' },
+      { time: '4:30p',  title: 'Pipeline / sunset (optional)', icon: 'surf', note: 'If Pipe Masters is running and you have energy left, ʻEhukai Beach Park is ~10 min up the road. Otherwise head back before dark.' },
+      { time: '6:00p',  title: 'Drive back + dinner', icon: 'car', note: '~1 hr back to the Kahala via H-2 / H-1. Dinner in Haleʻiwa first or near the hotel.' }
     ],
-    flag: { tone: 'ember', label: '★★ Pipe Masters window' }
+    flag: { tone: 'ember', label: '★★ UTV 8a · cacao 1p' }
   },
   {
     n: 4, date: 'Sat · Dec 12', dow: 'Saturday', region: 'Honolulu',

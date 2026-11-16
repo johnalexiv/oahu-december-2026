@@ -12,13 +12,13 @@ export function Overview() {
     { label: 'Stay',     value: '4',  sub: 'Nights at The Kahala · booked' },
     { label: 'Flights',  value: '2',  sub: 'Nonstop LAS ⇄ HNL · Alaska' },
     { label: 'Car',      value: 'SUV', sub: 'Enterprise · booked' },
-    { label: 'To book',  value: String(pending), sub: 'Hanauma · Kualoa · Goofy\'s · dinner' }
+    { label: 'To book',  value: String(pending), sub: 'Hanauma · Kualoa · cacao · Goofy\'s · dinner' }
   ]
 
   const routeRows = [
     ['Wed Dec 9',  'Arrive', 'Land 2:04p · SUV · Kahala sunset'],
-    ['Thu Dec 10', 'East side', 'Hanauma Bay · Hālona Blowhole · Koko Crater Arch · Kailua'],
-    ['Fri Dec 11', 'Windward + North Shore', 'Kualoa UTV · Kahuku Farms · Giovanni\'s · Kula · Pipeline'],
+    ['Thu Dec 10', 'East side', 'Hanauma Bay · Hālona Blowhole · Koko Crater Arch · slow afternoon'],
+    ['Fri Dec 11', 'Windward + North Shore', 'Kualoa UTV 8a · cacao farm 1p · Giovanni\'s · Matsumoto\'s'],
     ['Sat Dec 12', 'Town', 'Kakaʻako market · Goofy\'s brunch · Don Quijote · cabana'],
     ['Sun Dec 13', 'Home', 'Return car 11:10a · AS 876 at 1:10p']
   ]
